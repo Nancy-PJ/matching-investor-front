@@ -1,0 +1,27 @@
+$pc: 980px; // PC
+$sp: 640px; // sp
+
+
+@mixin pc {
+  @media only screen and (min-width: ($pc)) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media only screen and (min-width: ($sp + 1)) and (max-width: ($pc - 1)) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media only screen and (max-width: ($sp)) {
+    @content;
+  }
+}
+
+@include tab {
+  test {
+    background: #000;
+  }
+}
