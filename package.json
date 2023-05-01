@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/pwa": "^2.6.0",
+    "@nuxtjs/pwa": "^3.3.5",
     "cross-env": "^5.2.0",
     "dayjs": "^1.8.14",
     "firebase-tools": "^6.9.1",
