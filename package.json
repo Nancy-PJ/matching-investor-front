@@ -19,7 +19,7 @@
     "dayjs": "^1.8.14",
     "firebase-tools": "^6.9.1",
     "node-sass": "^4.12.0",
-    "nuxt": "^2.7.1",
+    "nuxt": "^3.4.3",
     "nuxt-dayjs-module": "^0.1.2",
     "nuxt-property-decorator": "^2.1.3",
     "sass-loader": "^7.1.0",
